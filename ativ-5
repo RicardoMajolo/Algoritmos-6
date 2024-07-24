@@ -1,0 +1,17 @@
+/***Escreva um programa em C que apresente os resultados das potências de 3, variando do expoente
+0 até o expoente 15.
+**/
+
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int i, num;
+    for (i=0; i<15; i++){
+        num= pow (3,i);
+        printf("\n %d", num);
+    }
+
+    return 0;
+}
